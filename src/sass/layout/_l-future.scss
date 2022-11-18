@@ -1,0 +1,11 @@
+@use "global" as *;
+
+.l-future {
+    padding: 8% 0;
+
+    @include mq(sm) {
+        padding: 8% 5%;
+    }
+    @include mq(md) {
+    }
+}

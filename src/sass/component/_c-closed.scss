@@ -1,0 +1,14 @@
+@use "global" as *;
+
+.c-closed {
+
+    img {
+        margin: 0 auto;
+        width: 85%;
+
+        @include mq(md) {
+            width: 75%;
+        }
+    }
+}
+

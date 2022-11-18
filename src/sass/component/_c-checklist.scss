@@ -1,0 +1,43 @@
+@use "global" as *;
+
+.c-checklist {
+}
+
+.c-checklist__content {
+}
+
+.c-checklist__item {
+    display: flex;
+    padding: 1% 0;
+}
+.c-checklist__item:nth-child(n + 2) {
+    margin-top: 3%;
+}
+
+.c-checklist__item:last-child{
+    border: 0px none;
+}
+
+.c-checklist__img {
+    margin: auto 0;
+    flex-basis: 5%;
+
+    @include mq(sm) {
+    }
+    @include mq(md) {
+        flex-basis: 4%;
+    }
+}
+
+.c-checklist__text {
+    margin-left: rem(10);
+    flex-basis: 95%;
+
+    @include mq(sm) {
+        margin-left: rem(10);
+    }
+    @include mq(md) {
+        margin-left: rem(20);
+        flex-basis: 96%;
+    }
+}

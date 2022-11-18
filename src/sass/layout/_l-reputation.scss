@@ -1,0 +1,10 @@
+@use "global" as *;
+
+.l-reputation {
+    padding: 8% 0;
+
+    @include mq(sm) {
+    }
+    @include mq(md) {
+    }
+}

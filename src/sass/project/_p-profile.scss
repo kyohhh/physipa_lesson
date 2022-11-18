@@ -1,0 +1,132 @@
+@use "global" as *;
+
+.p-profile {
+    background: $white;
+}
+
+.p-profile__inner {
+    padding: 0 3%;
+
+    @include mq(sm) {
+    }
+
+    @include mq(md) {
+    }
+}
+
+.p-profile__title {
+
+    img {
+        margin: 0 auto;
+        width: 50%;
+
+        @include mq(sm) {
+        }
+
+        @include mq(md) {
+        }
+    }
+}
+
+.p-profile__deco {
+    width: 40%;
+    display: block;
+    margin: 5% auto 0;
+
+    img {
+    }
+}
+
+.p-profile__contents {
+    margin-top: 5%;
+
+    @include mq(sm) {
+    }
+}
+
+
+.p-profile__content:nth-child(1) {
+    border-bottom: solid $green;
+
+    @include mq(sm) {
+        border-bottom: 0;
+    }
+
+    @include mq(md) {
+    }
+}
+
+.p-profile__content:nth-child(2) {
+    margin-top: 8%;
+}
+
+.p-profile__img {
+    margin: 3% auto 0;
+    width: 80%;
+
+    img {
+        width: 100%;
+    }
+}
+
+.p-profile__career {
+    background: $white;
+    padding: 5%;
+    margin: 5% 0 0;
+
+    @include mq(sm) {
+        border: solid $green;
+    }
+
+    @include mq(md) {
+        margin: 5% 5% 0;
+    }
+}
+
+.p-profile__career-title {
+    color: $green;
+
+}
+.p-profile__career-list {
+    margin-top: 3%;
+}
+
+.p-profile__career-item {
+
+}
+
+
+.p-profile__text  {
+    margin-top: 5%;
+}
+
+.p-profile__text:nth-child(n + 2) {
+    margin-top: 5%;
+
+    @include mq(sm) {
+    }
+
+    @include mq(md) {
+    }
+}
+
+.p-profile__box {
+    display: flex;
+    align-items: flex-end;
+
+    color: $mid-green;
+    font-weight: $bold;
+    line-height: 1;
+
+    margin-top: 5%;
+}
+
+.p-profile__customer-name {
+    font-size: rem(28);
+    margin-left: auto;
+}
+
+.p-profile__customer-category {
+    font-size: rem(22);
+    margin-left: 2%;
+}

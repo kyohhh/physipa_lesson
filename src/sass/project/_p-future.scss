@@ -1,0 +1,49 @@
+@use "global" as *;
+
+.p-future {
+    background: $title05-bg;
+}
+
+.p-future__inner {
+    padding: 0 3%;
+
+    @include mq(sm) {
+    }
+
+    @include mq(md) {
+    }
+}
+
+.p-future__title {
+
+    img {
+        margin: 0 auto;
+        width: 70%;
+
+        @include mq(sm) {
+        }
+
+        @include mq(md) {
+        }
+    }
+}
+
+.p-future__deco {
+    width: 40%;
+    display: block;
+    margin: 5% auto 0;
+
+    img {
+    }
+}
+
+.p-future__list {
+    
+
+    @include mq(sm) {
+        margin: 5% 0 0;
+    }
+
+    @include mq(md) {
+    }
+}

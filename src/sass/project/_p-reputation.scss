@@ -1,0 +1,187 @@
+@use "global" as *;
+
+.p-reputation {
+    background: $title03-bg;
+}
+
+.p-reputation__inner {
+    padding: 0 3%;
+
+    @include mq(sm) {
+    }
+
+    @include mq(md) {
+    }
+}
+
+.p-reputation__title {
+
+    img {
+        margin: 0 auto;
+        width: 70%;
+
+        @include mq(sm) {
+        }
+
+        @include mq(md) {
+        }
+    }
+}
+
+.p-reputation__deco {
+    width: 40%;
+    display: block;
+    margin: 5% auto 0;
+
+    img {
+    }
+}
+
+.p-reputation__instructions {
+    margin-top: 3%;
+    text-align: center;
+}
+
+.p-reputation__contents {
+    margin-top: 5%;
+
+    @include mq(sm) {
+    }
+}
+
+.p-reputation__content {
+    border: solid $green;
+    background: $white;
+    padding: 5%;
+
+
+    @include mq(sm) {
+    }
+
+    @include mq(md) {
+    }
+
+}
+
+.p-reputation__content:nth-child(n + 2) {
+    margin-top: 3%;
+
+    @include mq(sm) {
+    }
+    @include mq(md) {
+    }
+}
+
+.p-reputation__voice {
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+
+    @include mq(sm) {
+        width: 50%;
+    }
+    @include mq(md) {
+    }
+
+    img {
+    }
+}
+
+.p-reputation__item {
+    margin-top: 3%;
+
+    @include mq(sm) {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    @include mq(md) {
+    }
+
+    img {
+        width: 100%;
+    }
+}
+
+.p-reputation__subtitle {
+    color: $orange;
+    font-weight: $bold;
+    margin: 5% auto 0;
+    flex-basis: 60%;
+    font-size: rem(18);
+    text-align: center;
+
+    @include mq(sm) {
+        margin: auto 0;
+        flex-basis: 65%;
+        font-size: 3vw;
+        text-align: left;
+    }
+    @include mq(md) {
+        flex-basis: 70%;
+        font-size: rem(28);
+
+    }
+}
+
+.p-reputation__img {
+    margin: 5% auto 0;
+    flex-basis: 40%;
+    width: 60%;
+
+    @include mq(sm) {
+        // margin-left: 5%;
+        margin: auto 0 auto 5%;
+        flex-basis: 35%;
+        width: 100%;//
+    }
+    @include mq(md) {
+        flex-basis: 30%;
+    }
+
+
+
+    img {
+        width: 100%;
+    }
+}
+
+
+.p-reputation__text  {
+    margin-top: 5%;
+    // text-align: center;
+}
+
+.p-reputation__box {
+    display: flex;
+    align-items: flex-end;
+
+    color: $mid-green;
+    font-weight: $bold;
+    line-height: 1;
+
+    margin-top: 5%;
+}
+
+.p-reputation__customer-name {
+    margin-left: auto;
+    font-size: rem(18);
+
+    @include mq(sm) {
+        font-size: rem(16);
+    }
+    @include mq(md) {
+        font-size: rem(28);
+    }
+}
+
+.p-reputation__customer-category {
+    margin-left: 2%;
+    font-size: rem(14);
+
+    @include mq(sm) {
+        font-size: rem(14);
+    }
+    @include mq(md) {
+        font-size: rem(22);
+    }
+}

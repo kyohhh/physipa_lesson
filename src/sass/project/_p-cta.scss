@@ -1,0 +1,94 @@
+@use "global" as *;
+
+.p-cta {
+    max-width: 1000px;
+    margin: 0 auto;
+    background: $green;
+    padding: 5%;
+}
+
+.p-cta__contents {
+    background: $white;
+    border-radius: 30px;
+    padding: 5% 3%;
+    
+    @include mq(sm) {
+        padding: 5% 8%;
+    }
+
+    @include mq(md) {
+    }
+}
+
+.p-cta__fee {
+    width: 85%;
+    margin: 0 auto;
+
+    @include mq(sm) {
+        width: 100%;
+    }
+
+    @include mq(md) {
+    }
+}
+
+.p-cta__block {
+    width: 90%;
+    margin: 0 auto;
+
+    @include mq(sm) {
+        width: 100%;
+    }
+
+    @include mq(md) {
+    }
+}
+
+.p-cta__btn01,
+.p-cta__btn02,
+.p-cta__btn03 {
+    margin-top: 5%;
+}
+
+.p-cta__text:nth-child(n + 2) {
+    margin-top: 5%;
+
+    @include mq(sm) {
+    }
+
+    @include mq(md) {
+    }
+}
+
+
+// ========
+// ボタンアニメーション
+// ========
+// https://tabibitojin.com/css-floating-pounding-button/
+
+.dokidoki{
+    animation-name:dokidoki;	/* アニメーション名の指定 */
+    animation-delay:0s;		/* アニメーションの開始時間指定 */
+    animation-duration: 2s;	/* アニメーション動作時間の指定 */
+    animation-timing-function: ease-in-out;
+    /* アニメーションの動き（徐々に早く徐々に遅く）*/
+    animation-iteration-count: infinite; /* アニメーションをループさせる */
+}
+
+@keyframes dokidoki {
+    0% {
+        transform: scale(1);
+    }
+    40% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    60% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}

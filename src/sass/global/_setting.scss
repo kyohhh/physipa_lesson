@@ -1,0 +1,136 @@
+@use "sass:math";
+
+////////////////////
+// インナー幅設定
+////////////////////
+// コンテンツのインナー幅（最も共通の幅が多い部分）
+$inner: 1000px;
+// ※キャンパス幅ではなくインナーの幅を指す
+
+// 余白
+$padding-pc: 25px;
+$padding-sp: 20px;
+// ※PC時：デザインカンプの余白の幅ではない。PC時は通常25pxで大丈夫！
+
+////////////////////
+//
+////////////////////
+main {
+	max-width: 1000px;
+  margin: 0 auto;
+  // text-align: center;
+  // box-shadow: 0 0 8px gray;
+  background-color: #fff;
+}
+
+.main__back {
+  background: #f7f3eb; //下地
+  // background-image: url(../images/common/back.jpg);
+  // background-attachment: fixed;
+  // background-position: center top;
+  // background-repeat: no-repeat;
+  // background-size: cover;
+  // max-width: 1600px;
+  // margin: 0 auto;
+}
+
+////////////////////
+// フォント設定
+////////////////////
+
+$base-font-family: "メイリオ", "Meiryo", "A-OTF 新ゴ Pro","A-OTF Shin Go Pro","ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "Osaka", "MSPゴシック", "MS PGothic", sans-serif;
+$second-font-family: "";
+// ※検証ツールでしっかり反映されているか確認する
+
+body {
+  font-family: $base-font-family;
+  background: #fbfbfb;
+}
+
+// フォントウェイト
+$regular: 300;
+$normal: 400;
+$bold: 700;
+
+////////////////////
+// 色の指定
+////////////////////
+
+//色指定
+$black: #111;
+$white: #fff;
+
+$red: #f20000;
+$orange: #f57c06;
+$green: #4eb33f;
+$mid-green: #5a7c6c;
+$marker: #fcff00; //黄色マーカー
+
+
+$title03-bg: #fcfff6;
+$title05-bg: #fcfff6;
+
+$bg: #fbfbfb;
+
+////////////////////
+// メディアクエリとブレークポイントの設定
+////////////////////
+
+//ブレイクポイント
+$breakpoints: (
+  sm: 451,
+  md: 768,
+  lg: 1024,
+  xl: 1440,
+);
+
+
+//メディアクエリー
+$mediaquerys: (
+  sm: "screen and (min-width: #{map-get($breakpoints,'sm')}px)",
+  md: "screen and (min-width: #{map-get($breakpoints,'md')}px)",
+  lg: "screen and (min-width: #{map-get($breakpoints,'lg')}px)",
+  xl: "screen and (min-width: #{map-get($breakpoints,'xl')}px)",
+);
+
+// @include mq(){}で書くとブレークポイントが反映される（初期値はmd）
+@mixin mq($mediaquery: md) {
+  @media #{map-get($mediaquerys, $mediaquery)} {
+    @content;
+  }
+}
+
+// remへの計算式（16pxを基準としている。10pxを基準とする場合は16を10に変更する）
+@function rem($pixels) {
+  @return math.div($pixels, 16) * 1rem;
+}
+
+
+////////////////////
+// 非表示設定
+////////////////////
+//
+.br-pc {
+  display: none;
+
+  @include mq(sm) {
+    display: block;
+  }
+  @include mq(md) {
+  }
+}
+
+//768px以上を表示
+.u-desktop {
+  display: none;
+  @include mq("md") {
+    display: block;
+  }
+}
+
+//モバイルのみ表示
+.u-mobile {
+  @include mq("md") {
+    display: none;
+  }
+}
