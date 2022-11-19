@@ -244,7 +244,7 @@ select::-ms-expand {
 
 .c-footer {
   width: 100%;
-  background: #4eb33f;
+  background: #0ab74b;
   text-align: center;
   padding: 10px;
   padding: 0.625rem;
@@ -360,7 +360,7 @@ select::-ms-expand {
 }
 
 .p-benefit__content {
-  background: #f57c06;
+  background: #fe6104;
   margin-top: 5%;
   padding: 3%;
 }
@@ -382,7 +382,7 @@ select::-ms-expand {
 .p-cta {
   max-width: 1000px;
   margin: 0 auto;
-  background: #4eb33f;
+  background: #0ab74b;
   padding: 5%;
 }
 
@@ -523,7 +523,7 @@ select::-ms-expand {
   margin-top: 5%;
 }
 .p-profile__content:nth-child(1) {
-  border-bottom: solid #4eb33f;
+  border-bottom: solid #0ab74b;
 }
 @media screen and (min-width: 451px) {
   .p-profile__content:nth-child(1) {
@@ -549,7 +549,7 @@ select::-ms-expand {
 }
 @media screen and (min-width: 451px) {
   .p-profile__career {
-    border: solid #4eb33f;
+    border: solid #0ab74b;
   }
 }
 @media screen and (min-width: 768px) {
@@ -559,7 +559,7 @@ select::-ms-expand {
 }
 
 .p-profile__career-title {
-  color: #4eb33f;
+  color: #0ab74b;
 }
 
 .p-profile__career-list {
@@ -623,7 +623,7 @@ select::-ms-expand {
   margin-top: 5%;
 }
 .p-reputation__content {
-  border: solid #4eb33f;
+  border: solid #0ab74b;
   background: #fff;
   padding: 5%;
 }
@@ -659,7 +659,7 @@ select::-ms-expand {
 }
 
 .p-reputation__subtitle {
-  color: #f57c06;
+  color: #fe6104;
   font-weight: 700;
   margin: 5% auto 0;
   -ms-flex-preferred-size: 60%;
@@ -777,7 +777,7 @@ select::-ms-expand {
   margin-top: 5%;
 }
 .p-schedule__text-orange {
-  color: #f57c06;
+  color: #fe6104;
   font-size: 18px;
   font-size: 1.125rem;
 }
@@ -838,7 +838,7 @@ th, td {
 }
 
 th {
-  background-color: #4eb33f;
+  background-color: #0ab74b;
   color: #fff;
 }
 
