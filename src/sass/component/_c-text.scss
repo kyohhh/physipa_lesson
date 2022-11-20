@@ -17,15 +17,21 @@
     @include mq(sm) {
         font-size: 2.5vw;
     }
-    
+
     @include mq(md) {
         font-size: rem(20);
         // font-size: rem(24);
     }
 }
 
+// 太字
 .c-text--bold {
     font-weight: $bold;
+}
+
+// 赤字太字
+.c-text--red {
+    color: $red;
 }
 
 //下線

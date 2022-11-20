@@ -1,0 +1,10 @@
+@use "global" as *;
+
+.l-section01 {
+    padding-top: 5%;
+
+    @include mq(sm) {
+    }
+    @include mq(md) {
+    }
+}
