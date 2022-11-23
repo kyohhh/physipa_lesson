@@ -1,12 +1,12 @@
 @use "global" as *;
 
-.p-section01 {
+.p-section03 {
 }
 
-.p-section01__inner {
+.p-section03__inner {
 }
 
-.p-section01__content {
+.p-section03__content {
     margin: 0 auto;
     width: 100%;
 
@@ -20,44 +20,52 @@
     }
 }
 
-.p-section01__title01 {
-
-    img {
-        margin: 0 auto;
-        width: 90%;
-
-        @include mq(sm) {
-        }
-
-        @include mq(md) {
-        }
-    }
-}
-.p-section01__title02 {
-    margin-top: 10%;
-
-    img {
-        margin: 0 auto;
-        width: 90%;
-
-        @include mq(sm) {
-        }
-
-        @include mq(md) {
-        }
-    }
-}
-
-.p-section01__deco {
-    width: 40%;
-    display: block;
+.p-section03__content02 {
+    border: 10px solid $title03-line;
+    padding: 3%;
     margin: 5% auto 0;
+    width: 100%;
 
-    img {
+    @include mq(sm) {
+        // width: 80%;
+    }
+
+    @include mq(md) {
+        width: 85%;
+
     }
 }
 
-.p-section01__items {
+.p-section03__title01 {
+
+    img {
+        margin: 0 auto;
+        width: 90%;
+
+        @include mq(sm) {
+        }
+
+        @include mq(md) {
+        }
+    }
+}
+.p-section03__title02 {
+    border-bottom: 2px solid $title03-line;
+    padding-bottom: 2%;
+
+    img {
+        margin: 0 auto;
+        width: 95%;
+
+        @include mq(sm) {
+        }
+
+        @include mq(md) {
+        }
+    }
+}
+
+.p-section03__items {
     margin-top: 5%;
     border: 2px solid $title01-line;
     padding: 3%;
@@ -70,7 +78,7 @@
     }
 }
 
-.p-section01__item {
+.p-section03__item {
     // display: block;
 
     @include mq(sm) {
@@ -80,7 +88,7 @@
     }
 }
 
-.p-section01__item:nth-child( n + 2 ) {
+.p-section03__item:nth-child( n + 2 ) {
     margin-top: 5%;
 
     @include mq(sm) {
@@ -89,7 +97,7 @@
     }
 }
 
-.p-section01__item:nth-child(odd) {
+.p-section03__item:nth-child(odd) {
 
 
     @include mq(sm) {
@@ -100,54 +108,7 @@
     }
 }
 
-.p-section01__img01 {
-    width: 60%;
-    margin: 8% auto;
-    // box-shadow: 0px 15px 20px 0px rgba(0,0,0,0.4);
-
-    @include mq(sm) {
-        flex-basis: 30%;
-    }
-    @include mq(md) {
-    }
-
-    img {
-        width: 80%;
-        margin: 0 auto;
-
-        @include mq(sm) {
-            width: 100%;
-        }
-        @include mq(md) {
-        }
-    }
-}
-.p-section01__img01-1 {
-
-    @include mq(sm) {
-        margin:  auto 0 auto 3%;
-
-    }
-    @include mq(md) {
-    }
-
-    img {
-    }
-}
-.p-section01__img01-2 {
-
-    @include mq(sm) {
-        margin: auto 3% auto 0;
-
-    }
-    @include mq(md) {
-    }
-
-    img {
-    }
-}
-
-.p-section01__checklist {
+.p-section03__checklist {
     margin-top: 5%;
     margin-right: auto;
     margin-left: auto;
@@ -155,17 +116,34 @@
     width: 100%;
 
     @include mq(sm) {
-        margin-top: auto;
         margin-bottom: auto;
         width: 80%;
         flex-basis: 70%;
     }
     @include mq(md) {
-        width: 70%;
+        width: 90%;
     }
 }
 
-.p-section01__checklist--01 {
+// .p-section03__checklist {
+//     margin-top: 5%;
+//     margin-right: auto;
+//     margin-left: auto;
+//     margin-bottom: 0;
+//     width: 100%;
+
+//     @include mq(sm) {
+//         margin-top: auto;
+//         margin-bottom: auto;
+//         width: 80%;
+//         flex-basis: 70%;
+//     }
+//     @include mq(md) {
+//         width: 70%;
+//     }
+// }
+
+.p-section03__checklist--01 {
     @include mq(sm) {
         margin-right: auto;
         margin-left: 0;
@@ -173,7 +151,7 @@
     @include mq(md) {
     }
 }
-.p-section01__checklist--02 {
+.p-section03__checklist--02 {
     @include mq(sm) {
         margin-right: 0;
         margin-left: auto;
@@ -183,7 +161,7 @@
 }
 
 
-.p-section01__img02 {
+.p-section03__img02 {
     width: 90%;
     margin: 8% auto;
 
@@ -197,12 +175,7 @@
     }
 }
 
-
-
-
-
-
-.p-section0102__content {
+.p-section0302__content {
     margin: rem(20) auto 0;
     width: 100%;
 
@@ -215,7 +188,7 @@
         width: 85%;
     }
 }
-.p-section0103__content {
+.p-section0303__content {
     margin: rem(35) auto 0;
     width: 100%;
 
@@ -230,16 +203,14 @@
     }
 }
 
-.p-section01__text-box {
+.p-section03__text-box {
     margin: 5% auto 0;
     // width: 80%;
 }
-.p-section01__text {
+.p-section03__text {
 }
 
-
-
-.p-section01__text:nth-child(n + 2) {
+.p-section03__text:nth-child(n + 2) {
     margin-top: rem(20);
 
     @include mq(sm) {
@@ -251,4 +222,19 @@
     }
 }
 
+.p-section03__text02 {
+
+}
+
+.p-section03__text02:nth-child(n + 2) {
+    margin-top: rem(10);
+
+    @include mq(sm) {
+        margin-top: rem(10);
+    }
+
+    @include mq(md) {
+        margin-top: rem(20);
+    }
+}
 

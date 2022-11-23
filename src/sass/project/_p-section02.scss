@@ -1,12 +1,12 @@
 @use "global" as *;
 
-.p-section01 {
+.p-section02 {
 }
 
-.p-section01__inner {
+.p-section02__inner {
 }
 
-.p-section01__content {
+.p-section02__content {
     margin: 0 auto;
     width: 100%;
 
@@ -20,7 +20,7 @@
     }
 }
 
-.p-section01__title01 {
+.p-section02__title01 {
 
     img {
         margin: 0 auto;
@@ -33,7 +33,7 @@
         }
     }
 }
-.p-section01__title02 {
+.p-section02__title02 {
     margin-top: 10%;
 
     img {
@@ -48,7 +48,7 @@
     }
 }
 
-.p-section01__deco {
+.p-section02__deco {
     width: 40%;
     display: block;
     margin: 5% auto 0;
@@ -57,7 +57,7 @@
     }
 }
 
-.p-section01__items {
+.p-section02__items {
     margin-top: 5%;
     border: 2px solid $title01-line;
     padding: 3%;
@@ -70,7 +70,7 @@
     }
 }
 
-.p-section01__item {
+.p-section02__item {
     // display: block;
 
     @include mq(sm) {
@@ -80,7 +80,7 @@
     }
 }
 
-.p-section01__item:nth-child( n + 2 ) {
+.p-section02__item:nth-child( n + 2 ) {
     margin-top: 5%;
 
     @include mq(sm) {
@@ -89,7 +89,7 @@
     }
 }
 
-.p-section01__item:nth-child(odd) {
+.p-section02__item:nth-child(odd) {
 
 
     @include mq(sm) {
@@ -100,7 +100,7 @@
     }
 }
 
-.p-section01__img01 {
+.p-section02__img01 {
     width: 60%;
     margin: 8% auto;
     // box-shadow: 0px 15px 20px 0px rgba(0,0,0,0.4);
@@ -122,7 +122,7 @@
         }
     }
 }
-.p-section01__img01-1 {
+.p-section02__img01-1 {
 
     @include mq(sm) {
         margin:  auto 0 auto 3%;
@@ -134,7 +134,7 @@
     img {
     }
 }
-.p-section01__img01-2 {
+.p-section02__img01-2 {
 
     @include mq(sm) {
         margin: auto 3% auto 0;
@@ -147,7 +147,7 @@
     }
 }
 
-.p-section01__checklist {
+.p-section02__checklist {
     margin-top: 5%;
     margin-right: auto;
     margin-left: auto;
@@ -155,17 +155,34 @@
     width: 100%;
 
     @include mq(sm) {
-        margin-top: auto;
         margin-bottom: auto;
         width: 80%;
         flex-basis: 70%;
     }
     @include mq(md) {
-        width: 70%;
+        width: 90%;
     }
 }
 
-.p-section01__checklist--01 {
+// .p-section02__checklist {
+//     margin-top: 5%;
+//     margin-right: auto;
+//     margin-left: auto;
+//     margin-bottom: 0;
+//     width: 100%;
+
+//     @include mq(sm) {
+//         margin-top: auto;
+//         margin-bottom: auto;
+//         width: 80%;
+//         flex-basis: 70%;
+//     }
+//     @include mq(md) {
+//         width: 70%;
+//     }
+// }
+
+.p-section02__checklist--01 {
     @include mq(sm) {
         margin-right: auto;
         margin-left: 0;
@@ -173,7 +190,7 @@
     @include mq(md) {
     }
 }
-.p-section01__checklist--02 {
+.p-section02__checklist--02 {
     @include mq(sm) {
         margin-right: 0;
         margin-left: auto;
@@ -183,7 +200,7 @@
 }
 
 
-.p-section01__img02 {
+.p-section02__img02 {
     width: 90%;
     margin: 8% auto;
 
@@ -202,7 +219,7 @@
 
 
 
-.p-section0102__content {
+.p-section0202__content {
     margin: rem(20) auto 0;
     width: 100%;
 
@@ -215,7 +232,7 @@
         width: 85%;
     }
 }
-.p-section0103__content {
+.p-section0203__content {
     margin: rem(35) auto 0;
     width: 100%;
 
@@ -230,16 +247,16 @@
     }
 }
 
-.p-section01__text-box {
+.p-section02__text-box {
     margin: 5% auto 0;
     // width: 80%;
 }
-.p-section01__text {
+.p-section02__text {
 }
 
 
 
-.p-section01__text:nth-child(n + 2) {
+.p-section02__text:nth-child(n + 2) {
     margin-top: rem(20);
 
     @include mq(sm) {
