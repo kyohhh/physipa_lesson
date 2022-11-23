@@ -1,0 +1,132 @@
+@use "global" as *;
+
+.p-section08 {
+    background: $white;
+}
+
+.p-section08__inner {
+    padding: 0 3%;
+
+    @include mq(sm) {
+    }
+
+    @include mq(md) {
+    }
+}
+
+.p-section08__title {
+
+    img {
+        margin: 0 auto;
+        width: 50%;
+
+        @include mq(sm) {
+        }
+
+        @include mq(md) {
+        }
+    }
+}
+
+.p-section08__deco {
+    width: 40%;
+    display: block;
+    margin: 5% auto 0;
+
+    img {
+    }
+}
+
+.p-section08__contents {
+    margin-top: 5%;
+
+    @include mq(sm) {
+    }
+}
+
+
+.p-section08__content:nth-child(1) {
+    border-bottom: solid $green;
+
+    @include mq(sm) {
+        border-bottom: 0;
+    }
+
+    @include mq(md) {
+    }
+}
+
+.p-section08__content:nth-child(2) {
+    margin-top: 8%;
+}
+
+.p-section08__img {
+    margin: 3% auto 0;
+    width: 80%;
+
+    img {
+        width: 100%;
+    }
+}
+
+.p-section08__career {
+    background: $white;
+    padding: 5%;
+    margin: 5% 0 0;
+
+    @include mq(sm) {
+        border: solid $green;
+    }
+
+    @include mq(md) {
+        margin: 5% 5% 0;
+    }
+}
+
+.p-section08__career-title {
+    color: $green;
+
+}
+.p-section08__career-list {
+    margin-top: 3%;
+}
+
+.p-section08__career-item {
+
+}
+
+
+.p-section08__text  {
+    margin-top: 5%;
+}
+
+.p-section08__text:nth-child(n + 2) {
+    margin-top: 5%;
+
+    @include mq(sm) {
+    }
+
+    @include mq(md) {
+    }
+}
+
+.p-section08__box {
+    display: flex;
+    align-items: flex-end;
+
+    // color: $mid-green;
+    font-weight: $bold;
+    line-height: 1;
+
+    margin-top: 5%;
+}
+
+.p-section08__customer-name {
+    font-size: rem(28);
+    margin-left: auto;
+}
+
+.p-section08__customer-category {
+    font-size: rem(22);
+    margin-left: 2%;
+}
