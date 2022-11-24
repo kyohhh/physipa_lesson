@@ -48,21 +48,11 @@
     }
 }
 
-.p-section01__deco {
-    width: 40%;
-    display: block;
-    margin: 5% auto 0;
-
-    img {
-    }
-}
-
 .p-section01__items {
     margin-top: 5%;
-    border: 2px solid $title01-line;
-    padding: 3%;
 
     @include mq(sm) {
+        border: 2px solid $title01-line;
         padding: 3%;
     }
     @include mq(md) {
@@ -71,7 +61,6 @@
 }
 
 .p-section01__item {
-    // display: block;
 
     @include mq(sm) {
         display: flex;
@@ -182,62 +171,32 @@
     }
 }
 
+// .p-section01__img02 {
+//     width: 90%;
+//     margin: 8% auto;
 
-.p-section01__img02 {
-    width: 90%;
-    margin: 8% auto;
+//     @include mq(sm) {
+//     }
+//     @include mq(md) {
+//     }
 
-    @include mq(sm) {
-    }
-    @include mq(md) {
-    }
-
-    img {
-        width: 100%;
-    }
-}
-
-
-
-
-
-
-.p-section0102__content {
-    margin: rem(20) auto 0;
-    width: 100%;
-
-    @include mq(sm) {
-        margin: rem(20) auto 0;
-        width: 80%;
-    }
-    @include mq(md) {
-        margin: rem(50) auto 0;
-        width: 85%;
-    }
-}
-.p-section0103__content {
-    margin: rem(35) auto 0;
-    width: 100%;
-
-    @include mq(sm) {
-        margin: rem(35) auto 0;
-        width: 80%;
-    }
-    
-    @include mq(md) {
-        margin: rem(90) auto 0;
-        width: 85%;
-    }
-}
+//     img {
+//         width: 100%;
+//     }
+// }
 
 .p-section01__text-box {
     margin: 5% auto 0;
     // width: 80%;
+
+    @include mq(sm) {
+    }
+
+    @include mq(md) {
+    }
 }
 .p-section01__text {
 }
-
-
 
 .p-section01__text:nth-child(n + 2) {
     margin-top: rem(20);

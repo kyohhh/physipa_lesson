@@ -946,18 +946,12 @@ th {
   margin: 0 auto;
   width: 90%;
 }
-.p-section01__deco {
-  width: 40%;
-  display: block;
-  margin: 5% auto 0;
-}
 .p-section01__items {
   margin-top: 5%;
-  border: 2px solid #9e9e9e;
-  padding: 3%;
 }
 @media screen and (min-width: 451px) {
   .p-section01__items {
+    border: 2px solid #9e9e9e;
     padding: 3%;
   }
 }
@@ -1051,54 +1045,9 @@ th {
     margin-left: auto;
   }
 }
-.p-section01__img02 {
-  width: 90%;
-  margin: 8% auto;
-}
-.p-section01__img02 img {
-  width: 100%;
-}
-
-.p-section0102__content {
-  margin: 20px auto 0;
-  margin: 1.25rem auto 0;
-  width: 100%;
-}
-@media screen and (min-width: 451px) {
-  .p-section0102__content {
-    margin: 1.25rem auto 0;
-    width: 80%;
-  }
-}
-@media screen and (min-width: 768px) {
-  .p-section0102__content {
-    margin: 3.125rem auto 0;
-    width: 85%;
-  }
-}
-
-.p-section0103__content {
-  margin: 35px auto 0;
-  margin: 2.1875rem auto 0;
-  width: 100%;
-}
-@media screen and (min-width: 451px) {
-  .p-section0103__content {
-    margin: 2.1875rem auto 0;
-    width: 80%;
-  }
-}
-@media screen and (min-width: 768px) {
-  .p-section0103__content {
-    margin: 5.625rem auto 0;
-    width: 85%;
-  }
-}
-
 .p-section01__text-box {
   margin: 5% auto 0;
 }
-
 .p-section01__text:nth-child(n+2) {
   margin-top: 20px;
   margin-top: 1.25rem;
@@ -2189,7 +2138,7 @@ th {
 
 .p-section10__title01 {
   margin: 0 auto;
-  width: 80%;
+  width: 60%;
 }
 @media screen and (min-width: 451px) {
   .p-section10__title01 {
@@ -2575,7 +2524,14 @@ th {
   }
 }
 
-.p-text-box {
-  width: 80%;
+@media screen and (min-width: 451px) {
+  .p-text-box {
+    width: 90%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .p-text-box {
+    width: 80%;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
