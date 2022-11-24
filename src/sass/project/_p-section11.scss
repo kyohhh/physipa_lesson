@@ -1,0 +1,99 @@
+@use "global" as *;
+
+.p-section11 {
+}
+
+.p-section11__inner {
+}
+
+.p-section11__content {
+    margin: 0 auto;
+    width: 100%;
+
+    @include mq(sm) {
+        // width: 80%;
+    }
+
+    @include mq(md) {
+        width: 85%;
+
+    }
+}
+
+.p-section11__title01 {
+
+    img {
+        margin: 0 auto;
+        width: 90%;
+
+        @include mq(sm) {
+        }
+
+        @include mq(md) {
+        }
+    }
+}
+
+.p-section11__img01 {
+    width: 80%;
+    margin: 8% auto;
+    // box-shadow: 0px 15px 20px 0px rgba(0,0,0,0.4);
+
+    @include mq(sm) {
+    }
+    @include mq(md) {
+    }
+
+    img {
+        // width: 80%;
+        // margin: 0 auto;
+
+        @include mq(sm) {
+            width: 100%;
+        }
+        @include mq(md) {
+        }
+    }
+}
+.p-section11__img02 {
+    width: 80%;
+    margin: 8% auto;
+    // box-shadow: 0px 15px 20px 0px rgba(0,0,0,0.4);
+
+    @include mq(sm) {
+    }
+    @include mq(md) {
+    }
+
+    img {
+        // width: 80%;
+        // margin: 0 auto;
+
+        @include mq(sm) {
+            width: 100%;
+        }
+        @include mq(md) {
+        }
+    }
+}
+
+.p-section11__text-box {
+    margin: 5% auto 0;
+    // width: 80%;
+}
+.p-section11__text {
+}
+
+.p-section11__text:nth-child(n + 2) {
+    margin-top: rem(20);
+
+    @include mq(sm) {
+        margin-top: rem(20);
+    }
+
+    @include mq(md) {
+        margin-top: rem(45);
+    }
+}
+
+

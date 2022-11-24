@@ -21,14 +21,19 @@
 }
 
 .p-section10__title01 {
+    margin: 0 auto;
+    width: 80%;
+
+    @include mq(sm) {
+        width: 70%;
+    }
+    @include mq(md) {
+        width: 60%;
+    }
 
     img {
-        margin: 0 auto;
-        width: 90%;
-
         @include mq(sm) {
         }
-
         @include mq(md) {
         }
     }
@@ -76,21 +81,28 @@
 .p-section10__h3 {
     background: $orange;
     display: flex;
-    padding: 3%;
+    padding: 2%;
 
+    @include mq(sm) {
+        padding: 2%;
+    }
+
+    @include mq(md) {
+        padding: 3%;
+
+    }
 }
 
 .p-section10__arrow {
-    // flex-basis: 10%;
+    width: rem(25);
     margin-top: auto;
     margin-bottom: auto;
     
     @include mq(sm) {
-        width: rem(25);
     }
     
     @include mq(md) {
-        width: rem(40);
+        width: rem(35);
         display: flex;
         flex-direction: row-reverse;
     }
@@ -104,10 +116,16 @@
     margin-left: 5%;
     margin-top: auto;
     margin-bottom: auto;
+    color: $white;
+    font-family: corporate-logo-ver2, sans-serif;
+    font-size: rem(24);
 
     @include mq(sm) {
+        margin-left: 3%;
+        font-size: 4vw
     }
     @include mq(md) {
+        font-size: rem(32);
 
     }
 
@@ -126,55 +144,6 @@
         width: rem(350);
     }
 }
-
-// .p-section10__balloom {
-//     margin: auto;
-//     flex-basis: 80%;
-//     box-shadow: 3px 1px 5px rgba(0,0,0,0.4);
-//     background: $white;
-//     padding: 5% 3%;
-//     border-radius: 30px;
-
-//     @include mq(sm) {
-//         flex-basis: 75%;
-//     }
-//     @include mq(md) {
-//         flex-basis: 80%;
-//     }
-
-//     img {
-//         width: 80%;
-//         margin: 0 auto;
-
-//         @include mq(sm) {
-//             width: 100%;
-//         }
-//         @include mq(md) {
-//         }
-//     }
-// }
-
-// .p-section10__human {
-//     margin: auto 0;
-//     flex-basis: 15%;
-//     @include mq(sm) {
-//         flex-basis: 15%;
-//     }
-//     @include mq(md) {
-//         flex-basis: 10%;
-//     }
-
-//     img {
-
-//         @include mq(sm) {
-//             // width: rem(80);
-//         }
-//         @include mq(md) {
-//             // width: rem(100);
-//         }
-//     }
-// }
-
 
 .p-section10__box {
     // margin: 5% auto 0;
@@ -209,9 +178,15 @@
 }
 
 .p-section10__description {
-    margin: auto 0;
+    margin-top: 3%;
+    
+    @include mq(sm) {
+        // margin-top: auto;
+        // margin-bottom: auto;
+    }
     
     @include mq(md) {
+        margin: auto 0;
         flex-basis: 65%;
     }
 }
@@ -223,6 +198,7 @@
     padding: 3%;
 
     @include mq(sm) {
+        padding: 5%;
     }
 
     @include mq(md) {
