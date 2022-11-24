@@ -2291,8 +2291,13 @@ th {
   width: 90%;
 }
 .p-section11__img01 {
-  width: 80%;
+  width: 100%;
   margin: 8% auto;
+}
+@media screen and (min-width: 451px) {
+  .p-section11__img01 {
+    width: 80%;
+  }
 }
 @media screen and (min-width: 451px) {
   .p-section11__img01 img {
@@ -2300,12 +2305,12 @@ th {
   }
 }
 .p-section11__img02 {
-  width: 80%;
+  width: 100%;
   margin: 8% auto;
 }
 @media screen and (min-width: 451px) {
-  .p-section11__img02 img {
-    width: 100%;
+  .p-section11__img02 {
+    width: 80%;
   }
 }
 .p-section11__text-box {
