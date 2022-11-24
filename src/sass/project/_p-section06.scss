@@ -39,13 +39,16 @@
     margin-top: 5%;
     background: $white;
     border: 3px solid $title0506-line;
-    padding: 3%;
+    padding: 0 3%;
 
     @include mq(sm) {
-        padding: 3%;
+        padding: 0 3%;
     }
     @include mq(md) {
-        padding: 3%;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0 3%;
     }
 }
 
@@ -55,9 +58,8 @@
 
 .p-section06__item {
     display: flex;
-    padding: 5%;
-
-
+    padding: 5% 0;
+    
     @include mq(sm) {
     }
     @include mq(md) {
@@ -71,8 +73,14 @@
 
 
 .p-section06__number {
-    margin: auto 5% auto 0;
-    flex-basis: 20%;
+    margin: auto 0;
+    flex-basis: 8%;
+    width: rem(30);
+
+    @include mq(sm) {
+    }
+    @include mq(md) {
+    }
 
     img {
         margin: 0 auto;
@@ -81,17 +89,34 @@
 }
 
 .p-section06__desc {
-    // align-items: center;
-    margin: auto 0;
-    flex-basis: 80%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 3%;
+    flex-basis: 92%;
     display: block;
 
 }
 
 .p-section06__h3 {
-    width: 60%;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: $green;
+    font-family: corporate-logo-ver2, sans-serif;
+    font-size: rem(24);
 
     @include mq(sm) {
+        // margin-left: 3%;
+        font-size: 4vw
+    }
+    @include mq(md) {
+        font-size: rem(32);
+
+    }
+}
+
+.p-section06__h3:nth-child(n + 2) {
+    @include mq(sm) {
+        margin-left: 3%;
     }
     @include mq(md) {
     }
@@ -183,22 +208,22 @@
 //     }
 // }
 
-.p-section06__checklist--01 {
-    @include mq(sm) {
-        margin-right: auto;
-        margin-left: 0;
-    }
-    @include mq(md) {
-    }
-}
-.p-section06__checklist--02 {
-    @include mq(sm) {
-        margin-right: 0;
-        margin-left: auto;
-    }
-    @include mq(md) {
-    }
-}
+// .p-section06__checklist--01 {
+//     @include mq(sm) {
+//         margin-right: auto;
+//         margin-left: 0;
+//     }
+//     @include mq(md) {
+//     }
+// }
+// .p-section06__checklist--02 {
+//     @include mq(sm) {
+//         margin-right: 0;
+//         margin-left: auto;
+//     }
+//     @include mq(md) {
+//     }
+// }
 
 
 .p-section06__img02 {
@@ -215,39 +240,6 @@
     }
 }
 
-
-
-
-
-
-.p-section0602__content {
-    margin: rem(20) auto 0;
-    width: 100%;
-
-    @include mq(sm) {
-        margin: rem(20) auto 0;
-        width: 80%;
-    }
-    @include mq(md) {
-        margin: rem(50) auto 0;
-        width: 85%;
-    }
-}
-.p-section0603__content {
-    margin: rem(35) auto 0;
-    width: 100%;
-
-    @include mq(sm) {
-        margin: rem(35) auto 0;
-        width: 80%;
-    }
-    
-    @include mq(md) {
-        margin: rem(90) auto 0;
-        width: 85%;
-    }
-}
-
 .p-section06__text-box {
     margin: 5% auto 0;
     // width: 80%;
@@ -255,13 +247,11 @@
 .p-section06__text {
 }
 
-
-
 .p-section06__text:nth-child(n + 2) {
-    margin-top: rem(20);
+    // margin-top: rem(20);
 
     @include mq(sm) {
-        margin-top: rem(20);
+        // margin-top: rem(20);
     }
 
     @include mq(md) {
