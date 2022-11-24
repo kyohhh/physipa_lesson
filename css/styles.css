@@ -1262,14 +1262,20 @@ th {
 }
 
 .p-section03__content02 {
-  border: 10px solid #4066a0;
-  padding: 3%;
+  border: 5px solid #4066a0;
+  padding: 5% 3%;
   margin: 5% auto 0;
   width: 100%;
+}
+@media screen and (min-width: 451px) {
+  .p-section03__content02 {
+    border: 6px solid #4066a0;
+  }
 }
 @media screen and (min-width: 768px) {
   .p-section03__content02 {
     width: 85%;
+    border: 10px solid #4066a0;
   }
 }
 
@@ -1279,7 +1285,7 @@ th {
 }
 .p-section03__title02 {
   border-bottom: 2px solid #4066a0;
-  padding-bottom: 2%;
+  padding-bottom: 3%;
 }
 .p-section03__title02 img {
   margin: 0 auto;
