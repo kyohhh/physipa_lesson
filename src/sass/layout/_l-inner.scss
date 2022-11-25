@@ -9,8 +9,8 @@
   @include mq("sm") {
   }
   @include mq("md") {
-    max-width: $inner + strip-unit($padding-pc) * 2;
-    // padding-right: $padding-pc;
-    // padding-left: $padding-pc;
+    // max-width: $inner + strip-unit($padding-pc) * 2;
+    padding-right: $padding-pc;
+    padding-left: $padding-pc;
   }
 }

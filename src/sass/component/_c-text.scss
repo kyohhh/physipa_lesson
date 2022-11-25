@@ -42,3 +42,14 @@
 .c-text__underline {
     text-decoration: underline;
 }
+
+// 真ん中
+.c-text--center {
+    
+    @include mq(sm) {
+        text-align: center;
+    }
+
+    @include mq(md) {
+    }
+}
