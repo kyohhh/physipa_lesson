@@ -25,6 +25,7 @@
     width:  60%;
 
     @include mq(sm) {
+        width:  50%;
     }
     @include mq(md) {
         width: 40%;

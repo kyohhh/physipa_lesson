@@ -46,7 +46,7 @@
         padding: 0 5%;
     }
     @include mq(md) {
-        width: 80%;
+        width: 90%;
         margin-left: auto;
         margin-right: auto;
         padding: 0 5%;
@@ -70,8 +70,6 @@
 .p-section06__item:nth-child( n + 2) {
     border-top: 2px solid $title01-line;
 }
-
-
 
 .p-section06__number {
     margin: auto 0;
@@ -126,106 +124,6 @@
 .p-section06__text {
 
 }
-
-.p-section06__img01 {
-    width: 60%;
-    margin: 8% auto;
-    // box-shadow: 0px 15px 20px 0px rgba(0,0,0,0.4);
-
-    @include mq(sm) {
-        flex-basis: 30%;
-    }
-    @include mq(md) {
-    }
-
-    img {
-        width: 80%;
-        margin: 0 auto;
-
-        @include mq(sm) {
-            width: 100%;
-        }
-        @include mq(md) {
-        }
-    }
-}
-.p-section06__img01-1 {
-
-    @include mq(sm) {
-        margin:  auto 0 auto 3%;
-
-    }
-    @include mq(md) {
-    }
-
-    img {
-    }
-}
-.p-section06__img01-2 {
-
-    @include mq(sm) {
-        margin: auto 3% auto 0;
-
-    }
-    @include mq(md) {
-    }
-
-    img {
-    }
-}
-
-.p-section06__checklist {
-    margin-top: 5%;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 0;
-    width: 100%;
-
-    @include mq(sm) {
-        margin-bottom: auto;
-        width: 80%;
-        flex-basis: 70%;
-    }
-    @include mq(md) {
-        width: 90%;
-    }
-}
-
-// .p-section06__checklist {
-//     margin-top: 5%;
-//     margin-right: auto;
-//     margin-left: auto;
-//     margin-bottom: 0;
-//     width: 100%;
-
-//     @include mq(sm) {
-//         margin-top: auto;
-//         margin-bottom: auto;
-//         width: 80%;
-//         flex-basis: 70%;
-//     }
-//     @include mq(md) {
-//         width: 70%;
-//     }
-// }
-
-// .p-section06__checklist--01 {
-//     @include mq(sm) {
-//         margin-right: auto;
-//         margin-left: 0;
-//     }
-//     @include mq(md) {
-//     }
-// }
-// .p-section06__checklist--02 {
-//     @include mq(sm) {
-//         margin-right: 0;
-//         margin-left: auto;
-//     }
-//     @include mq(md) {
-//     }
-// }
-
 
 .p-section06__img02 {
     width: 90%;
