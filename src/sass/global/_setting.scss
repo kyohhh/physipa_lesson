@@ -9,7 +9,8 @@ $inner: 1000px;
 
 // 余白
 $padding-pc: 25px;
-$padding-sp: 10px;
+$padding-sp: 20px;//ホカムラさんご指定
+// $padding-sp: 10px;
 // ※PC時：デザインカンプの余白の幅ではない。PC時は通常25pxで大丈夫！
 
 ////////////////////
@@ -135,17 +136,17 @@ $mediaquerys: (
   }
 }
 
-//768px以上を表示
+//451px以上を表示
 .u-desktop {
   display: none;
-  @include mq("md") {
+  @include mq(sm) {
     display: block;
   }
 }
 
 //モバイルのみ表示
 .u-mobile {
-  @include mq("md") {
+  @include mq(sm) {
     display: none;
   }
 }

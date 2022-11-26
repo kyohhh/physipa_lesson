@@ -147,32 +147,12 @@
     width: 100%;
 
     @include mq(sm) {
-        margin-bottom: auto;
         width: 80%;
-        flex-basis: 70%;
     }
     @include mq(md) {
         width: 70%;
     }
 }
-
-// .p-section02__checklist {
-//     margin-top: 5%;
-//     margin-right: auto;
-//     margin-left: auto;
-//     margin-bottom: 0;
-//     width: 100%;
-
-//     @include mq(sm) {
-//         margin-top: auto;
-//         margin-bottom: auto;
-//         width: 80%;
-//         flex-basis: 70%;
-//     }
-//     @include mq(md) {
-//         width: 70%;
-//     }
-// }
 
 // .p-section02__checklist--01 {
 //     @include mq(sm) {

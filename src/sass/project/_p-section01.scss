@@ -54,10 +54,10 @@
 
     @include mq(sm) {
         border: 2px solid $title01-line;
-        padding: 3%;
+        padding: 4%;
     }
     @include mq(md) {
-        padding: 3%;
+        padding: 5%;
     }
 }
 
