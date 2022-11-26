@@ -2,9 +2,10 @@
 
 .l-section05 {
     padding: 10% 0;
-
+    
     @include mq(sm) {
     }
     @include mq(md) {
+        padding: 5% 0;
     }
 }

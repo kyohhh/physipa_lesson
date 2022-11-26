@@ -22,16 +22,17 @@
 }
 
 .p-section07__title01 {
+    margin: 0 auto;
+    width: 90%;
+
+    @include mq(sm) {
+        width: 70%;
+    }
+
+    @include mq(md) {
+    }
 
     img {
-        margin: 0 auto;
-        width: 90%;
-
-        @include mq(sm) {
-        }
-
-        @include mq(md) {
-        }
     }
 }
 .p-section07__title02 {
@@ -161,7 +162,7 @@
         flex-basis: 70%;
     }
     @include mq(md) {
-        width: 90%;
+        width: 65%;
     }
 }
 

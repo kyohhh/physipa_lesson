@@ -25,10 +25,9 @@
     width:  60%;
 
     @include mq(sm) {
-        width: 70%;
     }
     @include mq(md) {
-        width: 60%;
+        width: 40%;
     }
 
     img {
@@ -86,10 +85,9 @@
     @include mq(sm) {
         padding: 2%;
     }
-
+    
     @include mq(md) {
-        padding: 3%;
-
+        padding: 1%;
     }
 }
 
@@ -118,7 +116,7 @@
     margin-bottom: auto;
     color: $white;
     font-family: corporate-logo-ver2, sans-serif;
-    font-size: rem(24);
+    font-size: rem(20);
 
     @include mq(sm) {
         margin-left: 3%;
@@ -163,7 +161,7 @@
 }
 
 .p-section10__img {
-        width: 100%;
+        width: 90%;
         margin: 0 auto;
 
     @include mq(sm) {

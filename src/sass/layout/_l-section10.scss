@@ -1,9 +1,10 @@
 @use "global" as *;
 
 .l-section10 {
-    margin: 5% 0;
+    margin: 10% 0;
 
     @include mq(sm) {
+        margin: 5% 0;
     }
     @include mq(md) {
     }

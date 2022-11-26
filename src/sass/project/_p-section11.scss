@@ -21,16 +21,18 @@
 }
 
 .p-section11__title01 {
+    margin: 0 auto;
+    width: 90%;
+    
+    @include mq(sm) {
+        width: 70%;
+    }
+    
+    @include mq(md) {
+        width: 60%;
+    }
 
     img {
-        margin: 0 auto;
-        width: 90%;
-
-        @include mq(sm) {
-        }
-
-        @include mq(md) {
-        }
     }
 }
 
@@ -43,14 +45,12 @@
         width: 80%;
     }
     @include mq(md) {
+        width: 70%;
     }
 
     img {
-        // width: 80%;
-        // margin: 0 auto;
 
         @include mq(sm) {
-            width: 100%;
         }
         @include mq(md) {
         }
@@ -65,6 +65,7 @@
         width: 80%;
     }
     @include mq(md) {
+        width: 70%;
     }
 
     img {

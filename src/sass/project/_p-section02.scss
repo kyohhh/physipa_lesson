@@ -21,16 +21,17 @@
 }
 
 .p-section02__title01 {
+    margin: 0 auto;
+    width: 80%;
+
+    @include mq(sm) {
+        width: 60%;
+    }
+
+    @include mq(md) {
+    }
 
     img {
-        margin: 0 auto;
-        width: 90%;
-
-        @include mq(sm) {
-        }
-
-        @include mq(md) {
-        }
     }
 }
 .p-section02__title02 {

@@ -32,8 +32,9 @@
     border: 3px solid $title0506-line;
     padding: 3%;
     background: $white;
-
+    
     @include mq(sm) {
+        padding: 5%;
     }
 
     @include mq(md) {
@@ -48,11 +49,11 @@
     margin-right: auto;
 
     @include mq(sm) {
-        margin-top: -10%;
+        margin-top: -12%;
+        width: 50%;
     }
 
     @include mq(md) {
-        width: 50%;
     }
 }
 .p-section05__h4 {
@@ -161,8 +162,17 @@
 }
 
 .p-section05__img02 {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
+    
+    @include mq(sm) {
+        width: 80%;
+        
+    }
+    
+    @include mq(md) {
+        
+    }
 }
 
 .p-section05__description {

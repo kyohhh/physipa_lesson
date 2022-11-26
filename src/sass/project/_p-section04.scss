@@ -21,25 +21,27 @@
 }
 
 .p-section04__title01 {
+    margin: 0 auto;
+    width: 70%;
+
+    @include mq(sm) {
+        width: 55%;
+    }
+
+    @include mq(md) {
+    }
 
     img {
-        margin: 0 auto;
-        width: 90%;
-
-        @include mq(sm) {
-        }
-
-        @include mq(md) {
-        }
     }
 }
 
 .p-section04__img01 {
-    width: 80%;
+    width: 90%;
     margin: 8% auto;
     // box-shadow: 0px 15px 20px 0px rgba(0,0,0,0.4);
 
     @include mq(sm) {
+        width: 70%;
     }
     @include mq(md) {
     }

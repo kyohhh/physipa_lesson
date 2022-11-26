@@ -22,16 +22,17 @@
 }
 
 .p-section09__title01 {
+    margin: 0 auto;
+    width: 90%;
+
+    @include mq(sm) {
+    }
+
+    @include mq(md) {
+        width: 80%;
+    }
 
     img {
-        margin: 0 auto;
-        width: 90%;
-
-        @include mq(sm) {
-        }
-
-        @include mq(md) {
-        }
     }
 }
 

@@ -6,5 +6,6 @@
     @include mq(sm) {
     }
     @include mq(md) {
+        padding: 5% 0;
     }
 }

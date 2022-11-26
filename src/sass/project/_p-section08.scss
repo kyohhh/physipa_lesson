@@ -5,7 +5,6 @@
 }
 
 .p-section08__inner {
-    padding: 0 3%;
 
     @include mq(sm) {
     }
@@ -15,16 +14,17 @@
 }
 
 .p-section08__title {
+    margin: 0 auto;
+    width: 30%;
+    
+    @include mq(sm) {
+    }
+    
+    @include mq(md) {
+        width: 25%;
+    }
 
     img {
-        margin: 0 auto;
-        width: 50%;
-
-        @include mq(sm) {
-        }
-
-        @include mq(md) {
-        }
     }
 }
 
@@ -96,7 +96,7 @@
     }
     
     @include mq(md) {
-        flex-basis: 40%;
+        flex-basis: 30%;
     }
 
     img {
