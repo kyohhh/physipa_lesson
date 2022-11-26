@@ -16,6 +16,8 @@
 .c-checklist__item02 {
     display: flex;
     padding: 1% 3%;
+
+    font-family: vdl-logomaru, sans-serif;
 }
 .c-checklist__item02:nth-child(n + 2) {
     border-top: 1px solid $title01-line;

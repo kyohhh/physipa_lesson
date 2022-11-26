@@ -202,6 +202,7 @@ select::-ms-expand {
   display: -ms-flexbox;
   display: flex;
   padding: 1% 3%;
+  font-family: vdl-logomaru, sans-serif;
 }
 
 .c-checklist__item02:nth-child(n+2) {
