@@ -24,6 +24,19 @@
     }
 }
 
+// 小文字
+.c-text--small {
+    font-size: rem(12);
+
+    @include mq(sm) {
+        font-size: 2vw;
+    }
+
+    @include mq(md) {
+        font-size: rem(16);
+    }
+}
+
 // 太字
 .c-text--bold {
     font-weight: $bold;
